@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header class="header">
+        <input type="checkbox" id="check">
+        
+                <h1><a href="#" class="logo">Portfolio</a></h1>
+                <div class="navigation">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#portfolio">Projects</a>   
+                    <a href="#contact">Contact</a>
+                </div>
+                <label for="check">            
+                    <i class="fas fa-bars menu-btn"></i>
+                    <i class="fas fa-times close-btn"></i>
+                </label>
+    </header>
+
+    <section class="home" id="home">
+            <div class="home-content">
+                <h3>
+                    <p class="hello">Hello, Jai shree Ram <br>This is </p>
+                    <p><h2><strong>Sandeep Patel</strong></h2>
+                    <br><br>
+                </h3>
+              <br>
+                <div class="social-media">
+                 <a href="#"><i class='bx bxl-facebook' ></i></a>
+                 <a href="#"><i class='bx bxl-instagram' ></i></a>
+                 <a href="#"><i class='bx bxl-twitter'></i></a>
+                 <a href="#"><i class='bx bxl-linkedin'></i></a> 
+                </div>
+              <br>
+              <ahref="#" class="btn">Downlaod Cv</a>
+            </div>
+            <div class="home-img">
+             <img src="work_profile1.jpg" alt="">   
+            </div>
+    </section>
+
+        <section class="about" id="about">
+                <div class="about-img">
+                    <img src="work_profile1.jpg" alt="">
+                </div>
+                <div class="about-content">
+                    <h2 class="heading">About <span><strong></stong>Me</strong></span></h2>
+                    <h3>
+                        <h>I am a student pursuing Bachelores of technology from<strong> Medicaps University</strong> <strong>Indore</strong>.</p>
+                        <p>I am currently studying <strong>Web Development</strong>.</p>
+                        <p>I am a front-end Developer.<br>Skills: <strong>C/C++, Java</strong></p></h>
+                    </h3>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+        </section>
+
+            
+
+            <section class="contact" id="contact">
+                <h2 class="heading">Contact <strong> Me!</strong></h2>
+
+                <form action="#">
+                    <div class="input-box1">
+                        <input type="text" placeholder="Full Name">
+                        <input type="email" placeholder="Email ">
+                        <input type="number" placeholder="Contact number">
+                        <input type="Text" placeholder="Subject">
+                    </div>
+                    <input type="submit" value="Send Message" class="btn">
+                </form>
+            </section>
+</body>
+</html>
